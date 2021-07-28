@@ -902,7 +902,7 @@ $(window).on('load', function() {
    */
   function changeAttribution() {
     var attributionHTML = $('.leaflet-control-attribution')[0].innerHTML;
-    var credit = '@';
+    var credit = '@2021';
     var name = getSetting('_authorName');
     var url = getSetting('_authorURL');
 
